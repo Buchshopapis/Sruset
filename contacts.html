@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="./images/index/0.png" alt="Лого">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="./index.html">Главная</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="./delivery.html">Доставка канапе</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="./furset.html">Фуршет</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="./banquet.html">Банкет</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="btn__menu">
+          <input type="checkbox" id="nav-toggle" hidden>
+          <nav class="nav">
+            <label class="nav-toggle" for="nav-toggle" onclick></label>
+            <a class="logo__btn"> 
+              <img src="./images/index/0.png" alt="">
+            </a>
+            <ul>
+              <li><a href="./index.html">Главная</a></li>
+              <li><a href="./delivery.html">Доставка канапе</a></li>
+              <li><a href="./furset.html">Фуршет</a></li>
+              <li><a href="./banquet.html">Банкет</a></li>
+              <li><a href="./free-delivery.html">Доставка и оплата</a></li>
+              <li><a href="#faq">Частые вопросы</a></li>
+              <li><a href="#7">Новости</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="navbar__btn">
+              <button class="small__btn small__btn--l">Оставить заявку</button>
+              <button class="small__btn small__btn--r">Позвонить</button>
+            </div>
+          </nav>
+          <div class="mask-content"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="warning">
+      <div class="container">
+        <div class="warning-box">
+          <img class="warning__img" src="./images/contacts/1.svg" alt="#">
+          <p class="warning__text">В связи с участившимися случаями мошенничества, в отношении пользователей популярных сайтов с использованием персональных данных администрация Фурсет работает над тем, чтобы данные клиентов не сохранялись в публичном доступе.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="contacts-us">
+      <div class="container">
+        <h1 class="title contacts-us__title">Свяжитесь с нами удобным способом</h1>
+        <div class="contacts-us__inner">
+          <h2 class="subtitle">БЕЗОПАСНОЕ ОБЩЕНИЕ</h2>
+          <div class="info-text">
+            <p class="info-text__text">Для сохранения ваших персональных данных мы используем прямое общение с клиентами. Используйте любой удобный способ связи с нашими менеджерами.</p>
+          </div>
+        </div>
+        <div class="contacts-us__content">
+          <div class="contacts-us__messenger">
+            <a class="messenger__item messenger-whatsapp" href="">
+              <img class="messenger__img" src="./images/contacts/WA.svg" alt="">
+            </a>
+            <a class="messenger__item messenger-telegram" href="">
+              <img class="messenger__img" src="./images/contacts/TG.svg" alt="">
+            </a>
+            <a class="messenger__item" href="mailto:furset.spb@yandex.ru">
+              <img class="messenger__img" src="./images/contacts/MAIL.svg" alt="">
+            </a>
+            <a class="messenger__item" href="tel:+79819001112">
+              <img class="messenger__img" src="./images/contacts/PHONE.svg" alt="">
+            </a>
+          </div>
+          <a class="contacts-us__email" href="mailto:furset.spb@yandex.ru">furset.spb@yandex.ru</a>
+          <p class="contacts-us__text">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c <a class="text__call">политикой конфиденциальности</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h1 class="title faq__title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h1>
+        <div class="faq__inner">
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">За сколько времени лучше сделать заказ?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Лучше всё делать заблаговременно.</p>
+              <p class="answer__text">Минимальное время изготовления заказов:</p>
+              <ul class="answer__list">
+                <li>мобильный фуршет за 24 часа</li>
+                <li>фуршет за 24 часа</li>
+                <li>банкет за 48 часов</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Мы не останемся голодные?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Нет.</p>
+              <p class="answer__text">В любом формате мероприятия меню рассчитано и сбалансированно.</p>
+              <p class="answer__text">Мы предусмотрели детали, и отталкиваясь от своего опыта, можем с уверенностью сказать, что вы и ваши гости останутся сыты.</p>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Что делать если у нас много (мало) гостей?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Мы подготовим индивидуальное предложение для вашего мероприятия.</p>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Вы предоставляете дополнительное оборудование на мероприятие?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Да.</p>
+              <p class="answer__text">В зависимости от формата вашего мероприятия мы готовы привезти всё необходимое оборудование:</p>
+              <ul class="answer__list">
+                <li>столы</li>
+                <li>посуду/приборы/стекло</li>
+                <li>стулья</li>
+                <li>текстиль</li>
+                <li>шатёр</li>
+                <li>обогрев</li>
+                <li>свет</li>
+                <li>музыку</li>
+                <li>фейерверк</li>
+                <li>мангал</li>
+                <li>туалет</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Можно организовать мероприятие в Ленинградской области?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Да.</p>
+              <p class="answer__text">Все детали можно обговорить с нашим менеджером.</p>
+              <p class="answer__text">Мы с радостью поможем в организации праздника, где бы он ни находился.</p>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Вы сами готовите блюда?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Да.</p>
+              <p class="answer__text">Наши повара вдохновлены идеей совершенства. Они придумывают новые позиции и доводят до вкуса уже приготовленные. Мы используем только свежие продукты</p>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">У вас есть дополнительные услуги?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Есть.</p>
+              <p class="answer__text">Для вашего мероприятия мы можем предоставить:</p>
+              <ul class="answer__list">
+                <li>теплоход</li>
+                <li>лофт-пространство</li>
+                <li>загородный дом</li>
+                <li>фотографа</li>
+                <li>ведущего</li>
+                <li>DJ</li>
+                <li>видео съёмку</li>
+                <li>флориста</li>
+                <li>аниматора</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Вы организовываете мероприятия под ключ?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <p class="answer__text">Да.</p>
+              <p class="answer__text">Расскажите о вашем желании и мы вам в этом поможем.</p>
+            </div>
+          </div>
+  
+          <div class="faq-box">
+            <div class="question">
+              <h3 class="question__title">Варианты оплаты?</h3>
+              <img class="faq-box__img" src="./images/contacts/plus.svg" alt="img">
+            </div>
+            <div class="answer">
+              <ul class="answer__list">
+                <li>Наличный расчёт</li>
+                <li>Карта</li>
+                <li>Безналичный расчёт</li>
+                <li>Договор</li>
+              </ul>
+              <p class="answer__text">без НДС.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h1 class="title contacts__title">КОНТАКТЫ</h1>
+        <div class="contacts__inner">
+          <img class="qr" src="./images/index/19.svg" alt="Qr-code">
+          <div class="contacts__items">
+            <div class="contacts__item">
+              <p class="contacts__item-name">Телефон:</p>
+              <div class="contacts__item-links">
+                <a class="contacts__item-link contacts__item-phone" href="tel:+79819001112">+7-981-900-11-12</a>
+                <div class="contacts__item-messenger">
+                  <a class="messenger messenger__telegram" href="">Telegram</a>
+                  <a class="messenger messenger__whatsapp" href="">Whatsapp</a>
+                </div>
+              </div>
+            </div>
+            <div class="contacts__item">
+              <p class="contacts__item-name">Почта:</p>
+              <a class="contacts__item-link" href="mailto:furset.spb@yandex.ru">furset.spb@yandex.ru</a>
+            </div>
+            <div class="contacts__item">
+                <p class="contacts__item-name">Адрес:</p>
+                <p class="contacts__item-link">Спб, ул. Софийская, д.66</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a class="footer__logo" href="">
+            <img class="footer__logo-img" src="./images/index/0.png" alt="Logo"></a>
+            <div class="footer__items">
+              <div class="footer__item">
+                <h4 class="footer__item-title">ДОСТАВКА КАНАПЕ И ЗАКУСОК</h4>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Акции</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Новинки</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Фирменные коробки</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Мобильный фуршет</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__item">
+                <h4 class="footer__item-title">ФУРШЕТ</h4>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Новинки</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Выездной фуршет</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Кофе-брейк</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__item">
+                <h4 class="footer__item-title">БАНКЕТ</h4>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Готовые предложения</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Банкеты на природе</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__item">
+                <h4 class="footer__item-title">УСЛУГИ</h4>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Доставка закусок</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Выездной фуршет</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Организация банкета</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__item">
+                <h4 class="footer__item-title">ДОКУМЕНТЫ</h4>
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Политика конфиденциальности</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a class="footer__list-link" href="">Договор оферта</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
